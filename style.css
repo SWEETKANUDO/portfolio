@@ -45,10 +45,10 @@ nav {
   background: black;
   border-bottom: 1px solid blueviolet;
   padding: 18px 8%;
-  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
+   z-index: 1000;
 }
 
 .logo {
@@ -582,6 +582,11 @@ nav {
   margin-bottom: 25px;
 }
 
+.contact-form{
+  display: flex;
+  justify-content: center;
+  
+}
 .contact-items {
   display: flex;
   flex-direction: column;
@@ -604,41 +609,6 @@ nav {
 
 .c-item a:hover {
   color: blueviolet;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.form-row {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 13px 15px;
-  background: rgb(19, 25, 31);
-  border: 1px solid blueviolet;
-  color: white;
-  border-radius: 8px;
-  outline: none;
-  font-family: Poppins, sans-serif;
-}
-
-.contact-form textarea {
-  resize: none;
-  min-height: 140px;
-}
-
-.send-btn {
-  width: max-content;
-  border: none;
-  cursor: pointer;
 }
 
 footer {
