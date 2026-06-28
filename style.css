@@ -45,6 +45,7 @@ nav {
   background: black;
   border-bottom: 1px solid blueviolet;
   padding: 18px 8%;
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
