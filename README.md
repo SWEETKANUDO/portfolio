@@ -78,12 +78,6 @@ Portfolio/
 
 ---
 
-# 📸 Preview
-
-![Portfolio Preview](https://mihir-bhuva-portfolio.vercel.app/)
-
----
-
 # 📬 Connect With Me
 
 <p align="left">
