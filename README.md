@@ -80,7 +80,7 @@ Portfolio/
 
 # 📸 Preview
 
-![Portfolio Preview](https://placehold.co/1200x700/111827/ffffff?text=Mihir+Bhuva+Portfolio)
+![Portfolio Preview](https://mihir-bhuva-portfolio.vercel.app/)
 
 ---
 
