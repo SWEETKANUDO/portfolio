@@ -47,7 +47,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+<<<<<<< HEAD
    z-index: 1000;
+=======
+  z-index: 1000;
+>>>>>>> e1121c1 (Updated portfolio website)
 }
 
 .logo {
@@ -101,7 +105,11 @@ nav {
 }
 
 .hero-eyebrow {
+<<<<<<< HEAD
   font-family: 'Space Mono', monospace;
+=======
+  font-family: "Space Mono", monospace;
+>>>>>>> e1121c1 (Updated portfolio website)
   font-size: 12px;
   color: blueviolet;
   letter-spacing: 2px;
@@ -236,7 +244,11 @@ section {
 }
 
 .sec-label {
+<<<<<<< HEAD
   font-family: 'Space Mono', monospace;
+=======
+  font-family: "Space Mono", monospace;
+>>>>>>> e1121c1 (Updated portfolio website)
   font-size: 12px;
   color: #7c5cfc;
   letter-spacing: 2px;
@@ -345,7 +357,11 @@ section {
   margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
 #skills{
+=======
+#skills {
+>>>>>>> e1121c1 (Updated portfolio website)
   padding: 60px;
 }
 .skills-section {
@@ -468,7 +484,11 @@ section {
   margin-top: 3px;
 }
 
+<<<<<<< HEAD
 #projects{
+=======
+#projects {
+>>>>>>> e1121c1 (Updated portfolio website)
   padding: 60px;
 }
 .projects-grid {
@@ -615,7 +635,11 @@ section {
   margin-bottom: 8px;
 }
 
+<<<<<<< HEAD
 #contact{
+=======
+#contact {
+>>>>>>> e1121c1 (Updated portfolio website)
   padding: 60px;
 }
 .contact-grid {
@@ -634,11 +658,56 @@ section {
   margin-bottom: 25px;
 }
 
+<<<<<<< HEAD
 .contact-form{
   display: flex;
   justify-content: center;
   
 }
+=======
+.contact-right{
+    flex:1;
+}
+
+.contact-right form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.contact-right input,
+.contact-right textarea{
+    width:100%;
+    padding:15px;
+    background:#181818;
+    border:1px solid #444;
+    border-radius:8px;
+    color:#fff;
+    font-size:16px;
+    outline:none;
+}
+
+.contact-right input:focus,
+.contact-right textarea:focus{
+    border-color:blueviolet;
+}
+
+.contact-right button{
+    padding:15px;
+    background:blueviolet;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:17px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.contact-right button:hover{
+    background:#6d28d9;
+}
+
+>>>>>>> e1121c1 (Updated portfolio website)
 .contact-items {
   display: flex;
   flex-direction: column;
@@ -690,7 +759,11 @@ footer {
 
 .foot-socials a:hover {
   color: blueviolet;
+<<<<<<< HEAD
   border-color:blueviolet;
+=======
+  border-color: blueviolet;
+>>>>>>> e1121c1 (Updated portfolio website)
 }
 
 footer p {
@@ -715,8 +788,11 @@ footer b {
   border-top: 1px solid gray;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> e1121c1 (Updated portfolio website)
 /* ── RESPONSIVE ── */
 @media (max-width: 1024px) {
   #home {
@@ -763,16 +839,41 @@ footer b {
 }
 
 @media (max-width: 767px) {
+<<<<<<< HEAD
   .nav-links {
     display: none;
+=======
+  .hamburger {
+    display: block;
+    z-index: 1001;
+>>>>>>> e1121c1 (Updated portfolio website)
   }
 
   .nav-hire {
     display: none;
   }
 
+<<<<<<< HEAD
   .hamburger {
     display: block;
+=======
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: black;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    display: none;
+    border-top: 1px solid blueviolet;
+  }
+
+  .nav-links.active {
+    display: flex;
+>>>>>>> e1121c1 (Updated portfolio website)
   }
 
   .form-row {
@@ -809,4 +910,15 @@ footer b {
   .nav-open .nav-links {
     padding: 20px 24px;
   }
+<<<<<<< HEAD
+=======
+    .contact-section{
+        flex-direction:column;
+    }
+
+    .contact-left,
+    .contact-right{
+        width:100%;
+    }
+>>>>>>> e1121c1 (Updated portfolio website)
 }
