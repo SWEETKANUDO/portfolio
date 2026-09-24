@@ -1,24 +1,25 @@
-let menuIcon = document.getElementById("menuIcon");
-let hamburger = document.querySelector(".hamburger");
-let navLinks = document.querySelector(".nav-links");
+let menuBtn = document.getElementById("menuBtn");
 
-hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
+let navMenu = document.getElementById("navMenu");
 
-    if (navLinks.classList.contains("active")) {
-        menuIcon.classList.remove("fa-bars");
-        menuIcon.classList.add("fa-xmark");
-    } else {
-        menuIcon.classList.remove("fa-xmark");
-        menuIcon.classList.add("fa-bars");
-    }
+menuBtn.addEventListener("click", function () {
+  navMenu.classList.toggle("active");
 });
 
+let navLinks = document.querySelectorAll(".nav-menu a");
 
-document.querySelectorAll(".nav-links a").forEach(link => {
-    link.addEventListener("click", () => {
-        navLinks.classList.remove("active");
-        menuIcon.classList.remove("fa-xmark");
-        menuIcon.classList.add("fa-bars");
-    });
+navLinks.forEach(function (link) {
+  link.addEventListener("click", function () {
+    navMenu.classList.remove("active");
+  });
+});
+
+let contactForm = document.getElementById("contactForm");
+
+contactForm.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  alert("Thank you! Your message has been sent.");
+
+  contactForm.reset();
 });
